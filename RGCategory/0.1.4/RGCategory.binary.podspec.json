@@ -1,0 +1,21 @@
+{
+  "name": "RGCategory",
+  "version": "0.1.4",
+  "summary": "RGCategory",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @厦门美柚 - slj    」\n 常用分类",
+  "homepage": "https://github.com/iOSRG/RGCategory",
+  "license": "MIT",
+  "authors": {
+    "18607304107@163.com": "gui.ren@hand-china.com"
+  },
+  "source": {
+    "http": "http://localhost:8099/frameworks/RGCategory/0.1.4/zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "bin_RGCategory_0.1.4/Headers/*",
+  "public_header_files": "bin_RGCategory_0.1.4/Headers/*.h",
+  "vendored_libraries": "bin_RGCategory_0.1.4/*.a"
+}
