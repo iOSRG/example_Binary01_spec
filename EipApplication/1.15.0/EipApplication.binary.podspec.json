@@ -1,0 +1,51 @@
+{
+  "name": "EipApplication",
+  "version": "1.15.0",
+  "summary": "企业门户应用模板",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @厦门美柚 - slj    」\n TODO: Add long description of the pod here.",
+  "homepage": "https://code.choerodon.com.cn/hippius-ios-templets/EipApplication",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liyanjun": "yanjun.li@hand-china.com"
+  },
+  "source": {
+    "http": "http://localhost:8099/frameworks/EipApplication/1.15.0/zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "source_files": "bin_EipApplication_1.15.0/Headers/*",
+  "resources": "bin_EipApplication_1.15.0/Resources/*",
+  "dependencies": {
+    "HippiusCommonBusiness": [
+
+    ],
+    "HippiusBaseComponent": [
+
+    ],
+    "HippiusPYSearch": [
+
+    ],
+    "HippiusMJCustom": [
+
+    ],
+    "HippiusCustomSearchBar": [
+
+    ],
+    "HippiusWebView": [
+
+    ]
+  },
+  "public_header_files": "bin_EipApplication_1.15.0/Headers/*.h",
+  "vendored_libraries": "bin_EipApplication_1.15.0/*.a"
+}
