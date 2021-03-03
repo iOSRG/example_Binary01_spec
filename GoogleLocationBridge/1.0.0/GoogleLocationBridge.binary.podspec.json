@@ -1,0 +1,32 @@
+{
+  "name": "GoogleLocationBridge",
+  "version": "1.0.0",
+  "summary": "Google Location Bridge.",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @厦门美柚 - slj    」\n TODO: Add long description of the pod here.",
+  "homepage": "https://code.choerodon.com.cn/hippius-ios-plugins/GoogleLocationBridge",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "10100": "sheng.wang01@hand-china.com"
+  },
+  "source": {
+    "http": "http://localhost:8099/frameworks/GoogleLocationBridge/1.0.0/zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "bin_GoogleLocationBridge_1.0.0/Headers/*",
+  "dependencies": {
+    "HippiusBaseComponent": [
+
+    ],
+    "GoogleMaps": [
+      "3.7.0"
+    ]
+  },
+  "public_header_files": "bin_GoogleLocationBridge_1.0.0/Headers/*.h",
+  "vendored_libraries": "bin_GoogleLocationBridge_1.0.0/*.a"
+}
