@@ -1,0 +1,44 @@
+{
+  "name": "YYWebImage",
+  "summary": "Asynchronous image loading framework.",
+  "version": "1.0.5",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ibireme": "ibireme@gmail.com"
+  },
+  "social_media_url": "http://blog.ibireme.com",
+  "homepage": "https://github.com/ibireme/YYWebImage",
+  "platforms": {
+    "ios": "6.0"
+  },
+  "source": {
+    "http": "http://localhost:8099/frameworks/YYWebImage/1.0.5/zip",
+    "type": "zip"
+  },
+  "requires_arc": true,
+  "source_files": "bin_YYWebImage_1.0.5/Headers/*",
+  "public_header_files": "bin_YYWebImage_1.0.5/Headers/*.h",
+  "private_header_files": "YYWebImage/Categories/_*.{h}",
+  "frameworks": [
+    "UIKit",
+    "CoreFoundation",
+    "QuartzCore",
+    "AssetsLibrary",
+    "ImageIO",
+    "Accelerate",
+    "MobileCoreServices"
+  ],
+  "dependencies": {
+    "YYImage": [
+
+    ],
+    "YYCache": [
+
+    ]
+  },
+  "vendored_libraries": "bin_YYWebImage_1.0.5/*.a",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @厦门美柚 - slj    」"
+}
