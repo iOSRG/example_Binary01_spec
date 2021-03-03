@@ -1,0 +1,38 @@
+{
+  "name": "businesscard",
+  "version": "0.0.3",
+  "summary": "名片识别插件",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @厦门美柚 - slj    」\n TODO: Add long description of the pod here.",
+  "homepage": "https://code.choerodon.com.cn/hippius-ios-plugins/businesscard",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liyanjun": "yanjun.li@hand-china.com"
+  },
+  "source": {
+    "http": "http://localhost:8099/frameworks/businesscard/0.0.3/zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "bin_businesscard_0.0.3/Headers/*",
+  "dependencies": {
+    "HippiusBaseComponent": [
+
+    ],
+    "HippiusAFService": [
+
+    ],
+    "TZImagePickerController": [
+
+    ],
+    "TOCropViewController": [
+
+    ]
+  },
+  "public_header_files": "bin_businesscard_0.0.3/Headers/*.h",
+  "vendored_libraries": "bin_businesscard_0.0.3/*.a"
+}
