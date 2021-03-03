@@ -1,0 +1,30 @@
+{
+  "name": "pop",
+  "version": "1.0.12",
+  "license": {
+    "type": "BSD"
+  },
+  "homepage": "https://github.com/facebook/pop",
+  "authors": {
+    "Kimon Tsinteris": "kimon@mac.com"
+  },
+  "summary": "Extensible animation framework for iOS and OS X.",
+  "source": {
+    "http": "http://localhost:8099/frameworks/pop/1.0.12/zip",
+    "type": "zip"
+  },
+  "source_files": "bin_pop_1.0.12/Headers/*",
+  "public_header_files": "bin_pop_1.0.12/Headers/*.h",
+  "requires_arc": true,
+  "social_media_url": "https://twitter.com/fbOpenSource",
+  "libraries": "c++",
+  "pod_target_xcconfig": {
+    "CLANG_CXX_LANGUAGE_STANDARD": "c++11",
+    "CLANG_CXX_LIBRARY": "libc++"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "vendored_libraries": "bin_pop_1.0.12/*.a",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @厦门美柚 - slj    」"
+}
