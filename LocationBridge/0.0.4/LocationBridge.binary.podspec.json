@@ -1,0 +1,43 @@
+{
+  "name": "LocationBridge",
+  "version": "0.0.4",
+  "summary": "定位插件",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @厦门美柚 - slj    」\n TODO: Add long description of the pod here.",
+  "homepage": "https://code.choerodon.com.cn/hippius-ios-plugins/locationbridge",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liyanjun": "yanjun.li@hand-china.com"
+  },
+  "source": {
+    "http": "http://localhost:8099/frameworks/LocationBridge/0.0.4/zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "ARCHS[sdk=iphonesimulator*]": "$(ARCHS_STANDARD_64_BIT)"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "ARCHS[sdk=iphonesimulator*]": "$(ARCHS_STANDARD_64_BIT)"
+  },
+  "source_files": "bin_LocationBridge_0.0.4/Headers/*",
+  "dependencies": {
+    "HippiusBaseComponent": [
+
+    ],
+    "BMKLocationKit": [
+      "1.7.0"
+    ],
+    "AMapLocation": [
+      "~>2.6.2"
+    ]
+  },
+  "public_header_files": "bin_LocationBridge_0.0.4/Headers/*.h",
+  "vendored_libraries": "bin_LocationBridge_0.0.4/*.a"
+}
