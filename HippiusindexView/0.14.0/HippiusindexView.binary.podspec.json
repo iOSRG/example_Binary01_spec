@@ -1,0 +1,29 @@
+{
+  "name": "HippiusindexView",
+  "version": "0.14.0",
+  "summary": "一个tablview的索引组件.",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @厦门美柚 - slj    」\n 一个tablview的索引组件.",
+  "homepage": "https://code.choerodon.com.cn/hippius-ios-base/hippiusindexview",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liyanjun": "yanjun.li@hand-china.com"
+  },
+  "source": {
+    "http": "http://localhost:8099/frameworks/HippiusindexView/0.14.0/zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "bin_HippiusindexView_0.14.0/Headers/*",
+  "dependencies": {
+    "HippiusBaseComponent": [
+
+    ]
+  },
+  "public_header_files": "bin_HippiusindexView_0.14.0/Headers/*.h",
+  "vendored_libraries": "bin_HippiusindexView_0.14.0/*.a"
+}
