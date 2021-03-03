@@ -1,0 +1,36 @@
+{
+  "name": "EipLogin2",
+  "version": "0.7.1",
+  "summary": "企业门户登录模板",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin @厦门美柚 - slj    」\n TODO: Add long description of the pod here.",
+  "homepage": "https://code.choerodon.com.cn/hippius-ios-templets/EipLogin",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liyanjun": "yanjun.li@hand-china.com"
+  },
+  "source": {
+    "http": "http://localhost:8099/frameworks/EipLogin2/0.7.1/zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "bin_EipLogin2_0.7.1/Headers/*",
+  "resources": "bin_EipLogin2_0.7.1/Resources/*",
+  "dependencies": {
+    "EipLogin": [
+
+    ],
+    "HippiusWebView": [
+
+    ],
+    "CRBoxInputView": [
+      "1.1.5"
+    ]
+  },
+  "public_header_files": "bin_EipLogin2_0.7.1/Headers/*.h",
+  "vendored_libraries": "bin_EipLogin2_0.7.1/*.a"
+}
